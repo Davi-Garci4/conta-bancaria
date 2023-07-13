@@ -1,2 +1,2 @@
-# man
-Manipulação de dados em uma conta bancária, projeto desenvolvido em python.
+# manipulação_de_dados
+Esse projeto consiste na análise e manipulação de dados bancários, projeto desenvolvido em python.
