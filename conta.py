@@ -26,8 +26,10 @@ class Conta:
     def get_titular(self):
         return self.__titular
 
-    def get_limite(self):
+    @property
+    def limite(self):
         return self.__limite
 
-    def set_limite(self, novo_limite):
+    @limite.setter
+    def limite(self, novo_limite):
         self.__limite = novo_limite
