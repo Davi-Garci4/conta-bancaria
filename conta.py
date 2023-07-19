@@ -10,10 +10,12 @@ class Conta:
     def extrato(self):
         print("O seu saldo é de R${} e o seu limite disponivel é de {}!".format(self.__saldo, self.__limite))
 
-    def deposita(self, valor):
+    def depositar(self, valor):
         self.__saldo += valor
-        print("O seu novo saldo é de R${}!".format(self.__saldo))
 
     def sacar(self, valor):
         self.__saldo -= valor
-        print("O seu novo saldo é de R${}!".format(self.__saldo))
+
+    def transferir(self, valor, destino):
+        self.sacar(valor)
+        destino.depositar(valor)
