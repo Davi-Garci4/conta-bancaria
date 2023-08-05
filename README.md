@@ -1,2 +1,2 @@
-# manipulação_de_dados
-Esse projeto consiste na análise e manipulação de dados bancários, projeto desenvolvido em python.
+# conta_bancaria
+Esse projeto consiste na criação de uma conta bancária em python.
